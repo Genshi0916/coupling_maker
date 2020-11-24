@@ -9,4 +9,5 @@ idol = [
         '浅倉透','樋口円香','福丸小糸','市川雛菜'
 ]
 
-print("\n\n\n" + idol[random.randint(0,22)] + " ✕  " + idol[random.randint(0,22)] + "\n\n\n")
+print("\n\n\n" + idol[random.randint(0,len(idol)-1)] + " ✕  " + idol[random.randint(0,len(idol)-1)] + "\n\n\n")
+
